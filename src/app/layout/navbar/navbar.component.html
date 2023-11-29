@@ -1,0 +1,57 @@
+ <!-- ==================== Start Navbar ==================== -->
+
+ <nav class="navbar navbar-expand-lg">
+    <div class="container">
+
+        <!-- Logo -->
+        <a class="logo" href="#">
+            <img style="width: 110px;height: 110px;filter: contrast(0.1);" src="../../../assets/icons/logo.png" alt="logo">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="icon-bar"><i class="fas fa-bars"></i></span>
+        </button>
+
+        <!-- navbar links -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" (click)="redirectToHome()" role="button"
+                        aria-haspopup="true" aria-expanded="false">Home</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="index.html">Main Home</a>
+                        <a class="dropdown-item" href="index2.html">Creative Agency</a>
+                        <a class="dropdown-item" href="index5.html">Digital Agency</a>
+                        <a class="dropdown-item" href="index4.html">Business One Page</a>
+                        <a class="dropdown-item" href="index3.html">Corporate Business</a>
+                        <a class="dropdown-item" href="index6.html">Modern Agency</a>
+                        <a class="dropdown-item" href="index7.html">Freelancer</a>
+                        <a class="dropdown-item" href="index8.html">Architecture</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" (click)="redirectToAbout()">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" (click)="redirectToWork()" role="button"
+                        aria-haspopup="true" aria-expanded="false">Works</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="showcase.html">Showcase Parallax</a>
+                        <a class="dropdown-item" href="showcase4.html">Showcase Carousel</a>
+                        <a class="dropdown-item" href="showcase3.html">Showcase Circle</a>
+                        <a class="dropdown-item" href="works.html">Portfolio Masonry</a>
+                        <a class="dropdown-item" href="works2.html">Portfolio Filtering</a>
+                        <a class="dropdown-item" href="works3.html">Portfolio Gallery</a>
+                    </div>
+                </li>
+               
+                <li class="nav-item">
+                    <a class="nav-link" (click)="redirectToContactUs()">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- ==================== End Navbar ==================== -->
